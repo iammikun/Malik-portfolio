@@ -1,0 +1,61 @@
+.experience_Container {
+  width: 100%;
+}
+
+.experience_Wrapper {
+  border: 1px solid rgb(59, 59, 120);
+  border-radius: 0.25rem;
+  cursor: pointer;
+  padding: 3.125rem 1.563rem 1.875rem;
+  transition: 0.3s ease-out;
+  width: 100%;
+}
+
+.experience_Wrapper h4 {
+  font-size: 1.4rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.experience_Wrapper p {
+  font-size: 1rem;
+  line-height: 1.875rem;
+  margin-top: 1.875rem;
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+}
+
+.experience_Wrapper .pro_Content,
+.experience_Wrapper .project {
+  margin-top: 5rem;
+}
+
+.experience_Wrapper .pro_Content p,
+.experience_Wrapper .project p {
+  margin-top: 0.4rem;
+}
+
+.experience_Wrapper .pro_Content a button {
+  border: none;
+  border-bottom: 2px solid rgb(59, 59, 120);
+  border-radius: 0.3rem;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.04);
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  line-height: 1.8rem;
+  margin-top: 2rem;
+  padding: 0.8rem;
+  transition: 0.3s ease-out;
+  width: 15rem;
+  text-decoration: none;
+}
+
+.pro_Content a button:hover {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 500px) {
+  .experience_Wrapper .pro_Content a button {
+    width: 100%;
+  }
+}

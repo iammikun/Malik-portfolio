@@ -1,0 +1,89 @@
+.footer_Container {
+  width: 100%;
+}
+
+.footer_Wrapper {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.divider_Line {
+  height: 1px;
+  background-color: rgb(221, 221, 221);
+  margin-bottom: 96px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 96px;
+}
+
+.fut_Footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fut_Footer h1 {
+  font-family: "Poppins", sans-serif;
+}
+
+.footer_Socials {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.footer_Socials a {
+  font-size: 1.9rem;
+  color: #000;
+  opacity: 0.7;
+}
+
+.footer_Socials a:hover {
+  opacity: 1;
+  transition: 0.6s all ease-in-out;
+}
+
+.footer_Container .container {
+  display: flex;
+  flex-direction: row;
+  width: 85%;
+  margin: 0 auto;
+  justify-content: space-between;
+  margin-top: 9rem;
+}
+
+.footer_Container .container span {
+  font-size: 1rem;
+  line-height: 2.8rem;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-style: italic;
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 1024px) {
+  .footer_Wrapper {
+    width: 90%;
+  }
+
+  .footer_Container .container {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer_Container .container {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-top: 7rem;
+  }
+
+  .footer_Container .container span {
+    line-height: 1.5rem;
+  }
+}

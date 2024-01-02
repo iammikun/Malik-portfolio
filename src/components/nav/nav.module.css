@@ -1,0 +1,25 @@
+.nav_Container {
+}
+
+.nav_Wrapper ul {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+}
+
+.nav_Wrapper ul li {
+  list-style: none;
+}
+
+.nav_Wrapper ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+  font-family: "Poppins", sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+  .nav_Wrapper ul {
+    display: none;
+  }
+}

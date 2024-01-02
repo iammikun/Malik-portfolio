@@ -1,0 +1,113 @@
+.hero_Container {
+  height: 87vh;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  align-items: center;
+  background-repeat: no-repeat;
+  /* padding: 0 10%; */
+  background-image: url("../../../../image/heroBG.jpg");
+  background-color: #333232;
+  background-attachment: fixed;
+  background-blend-mode: multiply;
+  cursor: pointer;
+  transition: all 0.6s ease-out;
+  margin-top: 6rem;
+}
+
+.hero_Container:hover {
+  background-color: #1a1a1a;
+}
+
+.hero_Container .hero {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.hero_Wrapper {
+  width: 80%;
+  margin-top: 6rem;
+}
+
+.hero_Wrapper p {
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.063rem;
+  font-size: 1rem;
+  line-height: 2rem;
+  margin-top: 1rem;
+  color: #fff;
+}
+
+.hero_Wrapper h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  line-height: 4rem;
+  color: #fff;
+}
+
+.hero_Wrapper h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  line-height: 4rem;
+  color: rgb(31, 31, 159);
+}
+
+.footer_Socials {
+  display: flex;
+  flex-direction: row;
+  gap: 1.8rem;
+  margin-top: 1.9rem;
+}
+
+.footer_Socials a {
+  font-size: 2rem;
+  color: #fff;
+  opacity: 0.7;
+  transition: all 0.3s ease-out;
+}
+
+.footer_Socials a:hover {
+  opacity: 1;
+  color: rgb(31, 31, 159);
+}
+
+@media screen and (max-width: 1024px) {
+  .hero_Container .hero {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero_Wrapper {
+    width: 100%;
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .hero_Wrapper h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero_Wrapper h2 {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .hero_Wrapper h1 {
+    font-size: 1.9rem;
+    line-height: 3rem;
+  }
+
+  .hero_Wrapper h2 {
+    font-size: 1.4rem;
+    line-height: 3rem;
+  }
+
+  .footer_Socials a {
+    font-size: 1.8rem;
+  }
+}

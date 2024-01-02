@@ -1,0 +1,57 @@
+.skills_Container {
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+}
+
+.skills_Wrapper p {
+  margin-top: 0.076rem;
+  font-style: italic;
+}
+
+.skills_Box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.skills_Card {
+  border: 1px solid rgb(59, 59, 120);
+  border-radius: 0.375rem;
+  cursor: pointer;
+  font-size: 1.2rem;
+  padding: 2rem 0.5rem 2rem 0.7rem;
+  transition: 0.3s ease-out;
+  width: 20%;
+}
+
+.skills_Card h4 {
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 880px) {
+  .skills_Container {
+    margin-top: 6rem;
+  }
+  .skills_Box {
+    margin-top: 2rem;
+  }
+  .skills_Card {
+    width: 24%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .skills_Card {
+    width: 28%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .skills_Card {
+    width: 100%;
+  }
+}

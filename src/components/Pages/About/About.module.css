@@ -1,0 +1,42 @@
+.about_Container {
+  width: 100%;
+  margin-top: 15rem;
+}
+
+.about_Wrapper {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.about_Wrapper h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+  font-weight: 100;
+  /* width: 46%; */
+}
+
+.about_Wrapper p {
+  font-size: 1rem;
+  line-height: 1.875rem;
+  margin-top: 1.875rem;
+  width: 65%;
+  font-family: "Poppins", sans-serif;
+}
+
+@media screen and (max-width: 1024px) {
+  .about_Wrapper {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .about_Container {
+    margin-top: 13rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about_Wrapper p {
+    width: 100%;
+  }
+}

@@ -1,0 +1,14 @@
+.home_Container {
+  width: 100%;
+  /* padding-top: 15rem; */
+  padding-bottom: 9rem;
+}
+
+.home_Wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.home_Abt {
+  margin-top: -6rem;
+}
