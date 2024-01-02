@@ -15,10 +15,6 @@
   margin-top: 6rem;
 }
 
-.hero_Container:hover {
-  background-color: #1a1a1a;
-}
-
 .hero_Container .hero {
   width: 85%;
   margin: 0 auto;
@@ -98,7 +94,7 @@
 
 @media screen and (max-width: 500px) {
   .hero_Wrapper h1 {
-    font-size: 1.9rem;
+    font-size: 1.8rem;
     line-height: 3rem;
   }
 

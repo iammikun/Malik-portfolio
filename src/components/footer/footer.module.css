@@ -86,4 +86,8 @@
   .footer_Container .container span {
     line-height: 1.5rem;
   }
+
+  .footer_Socials a {
+    font-size: 1.8rem;
+  }
 }

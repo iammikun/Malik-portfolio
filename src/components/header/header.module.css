@@ -20,8 +20,28 @@
   align-items: center;
 }
 
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  display: none;
+}
+
+.hamburger .horizontal {
+  width: 25px;
+  height: 2px;
+  margin: 3px 0px;
+  background-color: black;
+}
+
 @media screen and (max-width: 1024px) {
   .header_Wrapper {
     width: 90%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hamburger {
+    display: flex;
+    outline: none;
   }
 }
