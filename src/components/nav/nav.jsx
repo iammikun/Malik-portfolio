@@ -2,12 +2,12 @@ import React from "react";
 import { Link } from "react-router-dom";
 import classes from "./nav.module.css";
 
-const nav = ({ toggle }) => {
+const Nav = ({ toggle }) => {
   return (
     <div className={classes.nav_Container}>
       <div className={!toggle ? classes.navContainer : classes.showNav}>
         <nav className={classes.nav_Wrapper}>
-          <ul>
+          <ul className={classes.leftNavLinks}>
             <li>
               <Link to="/">Home</Link>
             </li>
@@ -28,4 +28,4 @@ const nav = ({ toggle }) => {
   );
 };
 
-export default nav;
+export default Nav;

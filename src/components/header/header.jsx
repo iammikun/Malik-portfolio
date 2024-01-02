@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Logo from "../logo/logo";
-import Nav from "../nav/nav";
+import Nav from "../Nav/Nav";
 import classes from "./Header.module.css";
 
 const Header = () => {
@@ -8,7 +8,7 @@ const Header = () => {
 
   return (
     <div className={classes.header_Container}>
-      <div className={classes.header_Wrapper}>
+      <header className={classes.header_Wrapper}>
         <Logo />
         <Nav toggle={toggle} />
         <div onClick={() => setToggle(!toggle)} className={classes.hamburger}>
@@ -16,7 +16,7 @@ const Header = () => {
           <span className={classes.horizontal}></span>
           <span className={classes.horizontal}></span>
         </div>
-      </div>
+      </header>
     </div>
   );
 };

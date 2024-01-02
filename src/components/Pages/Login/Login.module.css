@@ -84,9 +84,14 @@ input:hover {
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 500px) {
   form {
     padding: 0.7rem;
     padding-bottom: 2rem;
+    border: none;
+  }
+
+  .login_Wrapper {
+    width: 100%;
   }
 }
